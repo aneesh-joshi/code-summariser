@@ -1,7 +1,3 @@
+Data/
 .DS_Store
-Data
-Backup_Data
-json/
 *.pyc
-*.pkl
-*.json

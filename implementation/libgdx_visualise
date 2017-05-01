@@ -1,0 +1,4 @@
+WARNING (theano.configdefaults): g++ not detected ! Theano will be unable to execute optimized C-implementations (for both CPU and GPU) and will default to Python implementations. Performance will be severely degraded. To remove this warning, set Theano flags cxx to an empty string.
+/root/code-summ/code-summariser/implementation/copy_conv_rec_model.py:243: UserWarning: ['sinput_shape'] are now deprecated in `tensor.nnet.abstract_conv.conv2d` interface and will be ignored.
+  code_copy_convolved_l3 = T.nnet.conv2d(gated_l2, conv_weights_code_copy_l3, sinput_shape=(1, self.hyperparameters["conv_layer2_nfilters"], None, 1), filter_shape=self.conv_layer3_copy_code.get_value().shape)[:, 0, :, 0]
+WARNING (theano.configdefaults): install mkl with `conda install mkl-service`: No module named mkl
